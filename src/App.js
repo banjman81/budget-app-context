@@ -2,7 +2,7 @@ import { useState  } from 'react';
 import Header from './components/header/Header';
 import Input from './components/inputs/Input';
 import MainList from './components/lists/MainList';
-import { InputContext, ListContext, HeaderContext, ListsContext } from './context/context';
+import { InputContext, HeaderContext, ListsContext } from './context/context';
 import {v4 as uuidv4} from 'uuid'
 import './App.css';
 
